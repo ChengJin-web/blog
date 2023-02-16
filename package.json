@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chengjin <chengjin@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs  --host",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.31",
+    "vue": "^3.2.45"
+  }
+}
