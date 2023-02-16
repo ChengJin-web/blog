@@ -2,7 +2,7 @@ const config = {
     title: "前端",
     description: "前端进阶网站",
     lastUpdated: true,
-    base: '/my_web_capital/',
+    base: '/blog/',
     // lang: 'zh-CN',
     head: [["link", {rel: "icon", type: "image/png", href: "pure-logo.svg"}]],
     themeConfig: {
