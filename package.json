@@ -1,16 +1,18 @@
 {
-  "name": "vitepress-site",
+  "name": "blog",
   "version": "1.0.0",
+  "description": "个人博客",
   "main": "index.js",
-  "author": "chengjin <chengjin@qq.com>",
+  "repository": "www.xxx.com",
+  "author": "ChengJin",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs  --host",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.31",
-    "vue": "^3.2.45"
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
   }
 }
